@@ -1,0 +1,71 @@
+.vagas-apresentaçao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10em;
+}
+
+.vagas__container {
+    display: flex;
+    justify-content: center;
+}
+
+.vagas__sobre {
+    color: var(--vermelho2);
+    font-size: 14px;
+    margin-bottom: -16px;
+}
+
+.vagas__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--preto2);
+    margin-bottom: 5px;
+}
+
+.vagas__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza2);
+    padding-bottom: 1.6em;
+}
+
+.vagas {
+    line-height: 2em;
+    padding-right: 30em;
+}
+
+.vagas-lista {
+    list-style: none;
+}
+
+.vagas-lista__cargo {
+    padding-top: 2.5em;
+    color: var(--preto2);
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: -1.5em;
+}
+
+.vagas-lista__funcao {
+    color: var(--preto2);
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 2.7em;
+}
+
+.vagas-lista__salario {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cinza2);
+    margin-top: 1.3em;
+}
+
+.vagas-lista__salario-div {
+    display: flex;
+}
+
+.vagas-lista__salaria-container {
+    padding-right: 2em;
+}

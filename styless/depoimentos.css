@@ -1,0 +1,38 @@
+.depoimentos {
+    text-align: center;
+    padding-top: 7em;
+}
+
+.depoimentos__sobre {
+    color: var(--vermelho2);
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.depoimentos__titulo {
+    font-size: 36px;
+    color: var(--preto2);
+    margin-bottom: 1em;
+    width: 65%; 
+    margin: auto;
+}
+
+.depoimentos__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza2);
+    padding-bottom: 1.6em;
+}
+
+.depoimentos__titulo-2 {
+    font-size: 16px;
+    color: var(--preto2);
+}
+
+.depoimentos__texto-2 {
+    font-weight: 400;
+    font-size: 14;
+    color: var(--cinza2);
+    margin-top: -0.2em;
+}

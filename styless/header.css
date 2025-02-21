@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header__container {
+    display: flex;
+    padding: 0 2em 0 5em;
+    align-items: center;
+    gap: 0.71em; 
+}
+
+.header-lista {
+    display: flex;
+    gap: 40px;
+    padding: 0 0 0 5em;
+}
+
+.header-lista__link{
+    text-decoration: none;
+    color: var(--cinza2);
+}
+
+.header-login {
+    display: flex;
+    gap: 2em;
+    margin-left: auto;
+    margin-right: 5em;
+}
+
+.header-lista, .header-login{
+    list-style: none;
+}
+
+.header-lista__cadastrar {
+    text-decoration: none;
+    color: var(--branco2);
+    background: #8E2424;
+    border: 12px solid #8E2424; 
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+}

@@ -1,0 +1,31 @@
+.banner {
+    text-align: center;
+    padding: 7.5em 0;
+    row-gap: -5em;
+}
+
+.banner__sobre {
+    color: var(--vermelho2);
+    font-weight: 600;
+}
+
+.banner__titulo2 {
+    color: var(--azul-cinza);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner__texto {
+    text-align: center; /* Centraliza o texto */
+    width: 45%; /* Reduz a largura do bloco */
+    margin: auto; /* Centraliza o bloco na página */
+    line-height: 1.; /* Reduz o espaçamento entre linhas */
+    white-space: normal; /* Garante que o texto quebre corretamente */
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza2);
+}
+
+.depoimentos__imagem {
+    margin-top: 2.5em;
+}

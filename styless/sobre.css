@@ -1,0 +1,39 @@
+.sobre {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    gap: 100px; /* Reduz o espaçamento entre os itens */
+    margin-top: -20px; /* Ajuste fino para subir a seção */
+}
+
+.sobre-lista {
+    list-style: none;
+    max-width: 250px;
+    padding: 0;
+    margin: 0;
+}
+
+.sobre-lista__geral {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2; /* Mantém a leitura confortável */
+}
+
+.sobre-lista__titulo {
+    font-size: 60px; /* Reduzi um pouco o tamanho */
+    font-weight: 600;
+    color: var(--vermelho2);
+    margin-bottom: 10px; /* Reduz espaço entre o número e o subtítulo */
+}
+
+.sobre-lista__sobretitulo {
+    font-size: 18px;
+    color: var(--preto2);
+    margin-bottom: 13px; /* Reduz espaço entre o subtítulo e o texto */
+}
+
+.sobre-lista__texto {
+    font-weight: 400;
+    color: var(--cinza2);
+    margin-top: 0;
+}
